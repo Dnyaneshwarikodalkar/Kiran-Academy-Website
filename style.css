@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #f5f7fb;
+    color: #333;
+}
+
+
+/* Navigation Bar */
+
+header {
+    background-color: #172554;
+    padding: 20px 60px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    color: #38bdf8;
+}
+
+
+/* Home */
+
+.hero {
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    background: linear-gradient(
+        rgba(23, 37, 84, 0.9),
+        rgba(30, 64, 175, 0.85)
+    );
+
+    color: white;
+}
+
+.hero-content {
+    max-width: 800px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+button {
+    background-color: #f97316;
+    color: white;
+    border: none;
+    padding: 13px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #ea580c;
+}
+
+
+/* Common Sections */
+
+section {
+    padding: 70px 10%;
+    text-align: center;
+}
+
+section h2 {
+    color: #172554;
+    font-size: 34px;
+    margin-bottom: 15px;
+}
+
+.section-text {
+    margin-bottom: 40px;
+}
+
+
+/* Courses */
+
+.course-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.course-card {
+    background-color: white;
+    width: 250px;
+    padding: 30px 20px;
+    border-radius: 10px;
+
+    box-shadow: 0 4px 15px #d1d5db;
+}
+
+.course-card h3 {
+    color: #1d4ed8;
+    margin-bottom: 15px;
+}
+
+.course-card p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+
+/* About */
+
+.about {
+    background-color: #e0f2fe;
+}
+
+.about p {
+    max-width: 800px;
+    margin: 15px auto;
+    line-height: 1.7;
+}
+
+
+/* Placements */
+
+.placement-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.placement-box {
+    background-color: white;
+    width: 280px;
+    padding: 30px;
+    border-radius: 10px;
+
+    box-shadow: 0 4px 15px #d1d5db;
+}
+
+.placement-box h3 {
+    color: #1d4ed8;
+    margin-bottom: 15px;
+}
+
+.placement-box p {
+    line-height: 1.6;
+}
+
+
+/* Contact */
+
+.contact {
+    background-color: #e5e7eb;
+}
+
+form {
+    max-width: 550px;
+    margin: auto;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 13px;
+    margin: 8px 0;
+
+    border: 1px solid #cbd5e1;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+textarea {
+    height: 120px;
+    resize: none;
+}
+
+form button {
+    margin-top: 10px;
+    width: 150px;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #172554;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+footer h3 {
+    margin-bottom: 10px;
+}
+
+footer p {
+    margin: 8px;
+}   
+.explore-btn {
+    display: inline-block;
+    background-color: Black;
+    color: white;
+    padding: 13px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+}
